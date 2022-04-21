@@ -2,6 +2,7 @@
 
 checkHash is a simple command line tool that allows you to easily get file checksum, compare multiple files or compare file checksum to checksum on input.
 
+[Download Version 1.0](https://github.com/mt1006/checkHash/releases/tag/checkHash-1.0)
 
 # Example
 
