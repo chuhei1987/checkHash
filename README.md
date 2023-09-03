@@ -4,6 +4,9 @@ checkHash is a simple command line tool that allows you to easily get file check
 
 [Download Version 1.0](https://github.com/mt1006/checkHash/releases/tag/checkHash-1.0)
 
+
+For trying your self, may need using something like cl /EHsc /std:c++17 /I "C:\Program Files\OpenSSl\include" main.cpp libssl.lib libcrypto.lib /link /LIBPATH:"C:\Program Files\OpenSSl\lib" 
+
 # Example
 
 ```
