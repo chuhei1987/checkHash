@@ -6,6 +6,7 @@ checkHash is a simple command line tool that allows you to easily get file check
 
 
 For trying your self, may need using something like cl /EHsc /std:c++17 /I "C:\Program Files\OpenSSl\include" main.cpp libssl.lib libcrypto.lib /link /LIBPATH:"C:\Program Files\OpenSSl\lib" 
+For linux, you may try such as "gcc -I /usr/local/ssl *.c -Wl,-L,/usr/local/lib -lssl -lcrypto" after openssl installed, That author doesn't leave hints, I got that by trial and errors, now I have try cross-compiling for the damn.
 
 # Example
 
