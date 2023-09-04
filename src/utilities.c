@@ -1,7 +1,7 @@
 /*
 * Project: checkHash
-* Version: 1.0
-* Project author: https://github.com/mt1006
+* Version: 1.0.a
+* Project author: https://github.com/chuhei1987/checkHash
 * File: utilities.c
 */
 
@@ -138,12 +138,12 @@ HashFunction detectHashFunction(unichar* input)
 	int len = uc_strlen(input);
 	if (isHex(input, len))
 	{
-		if (len == lenForHF(HF_SHA256) * 2) { return HF_SHA256; }
-		else if (len == lenForHF(HF_SHA224) * 2) { return HF_SHA224; }
-		else if (len == lenForHF(HF_SHA384) * 2) { return HF_SHA384; }
-		else if (len == lenForHF(HF_SHA512) * 2) { return HF_SHA512; }
-		else if (len == lenForHF(HF_SHA1) * 2) { return HF_SHA1; }
-		else if (len == lenForHF(HF_MD5) * 2) { return HF_MD5; }
+		//if (len == lenForHF(HF_SHA256) * 2) { return HF_SHA256; }
+		//else if (len == lenForHF(HF_SHA224) * 2) { return HF_SHA224; }
+		//else if (len == lenForHF(HF_SHA384) * 2) { return HF_SHA384; }
+		//else if (len == lenForHF(HF_SHA512) * 2) { return HF_SHA512; }
+		//else if (len == lenForHF(HF_SHA1) * 2) { return HF_SHA1; }
+		//else if (len == lenForHF(HF_MD5) * 2) { return HF_MD5; }
 	}
 	return HF_DEFAULT;
 }

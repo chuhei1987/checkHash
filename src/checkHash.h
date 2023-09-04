@@ -1,7 +1,7 @@
 /*
 * Project: checkHash
-* Version: 1.0
-* Project author: https://github.com/mt1006
+* Version: 1.0.a
+* Project author: https://github.com/chuhei1987/checkHash
 * File: checkHash.h
 */
 #pragma once
@@ -32,9 +32,9 @@
 #define CH_CPU "[unknown]"
 #endif
 
-#define CH_VERSION "1.0"
+#define CH_VERSION "1.0.A"
 #define CH_DEFAULT_OPERATION COMPARE
-#define CH_DEFAULT_HASH_FUNCTION HF_SHA256
+#define CH_DEFAULT_HASH_FUNCTION HF_SHA3_256 //Based on principle of non repeatable rule. 
 #define TO_STR(x) #x
 #define DEF_TO_STR(x) TO_STR(x)
 
@@ -90,24 +90,24 @@ typedef enum
 typedef enum
 {
 	HF_DEFAULT,
-	HF_SHA1,
-	HF_SHA224,
-	HF_SHA256,
-	HF_SHA384,
-	HF_SHA512,
-	HF_SHA512_224,
-	HF_SHA512_256,
-	HF_SHA3_224,
+	//HF_SHA1,
+	//HF_SHA224,
+	//HF_SHA256,
+	//HF_SHA384,
+	//HF_SHA512,
+	//HF_SHA512_224,
+	//HF_SHA512_256,
+	//HF_SHA3_224,
 	HF_SHA3_256,
 	HF_SHA3_384,
 	HF_SHA3_512,
-	HF_MD4,
-	HF_MD5,
-	HF_BLAKE2b512,
-	HF_BLAKE2s256,
-	HF_RIPEMD160,
-	HF_WHIRLPOOL,
-	HF_SM3
+	//HF_MD4,
+	//HF_MD5,
+	//HF_BLAKE2b512,
+	//HF_BLAKE2s256,
+	//HF_RIPEMD160,
+	//HF_WHIRLPOOL,
+	//HF_SM3
 } HashFunction;
 
 typedef struct

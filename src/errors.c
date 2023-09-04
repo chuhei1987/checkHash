@@ -1,7 +1,7 @@
 /*
 * Project: checkHash
-* Version: 1.0
-* Project author: https://github.com/mt1006
+* Version: 1.0.a
+* Project author: https://github.com/chuhei1987/checkHash
 * File: errors.c
 */
 
@@ -16,8 +16,8 @@ void syntaxError(void)
 	else
 	{
 		puts("#Invalid syntax!");
-		puts("#Usage: ch [options] [filename] [hash / filename / filenames...]");
-		puts("#See \"ch -h\"");
+		puts("#Usage: SHA3SUM [options] [filename] [hash / filename / filenames...]");
+		puts("#See \"SHA3SUM -h\"");
 	}
 	exit(1);
 }
@@ -47,7 +47,7 @@ void unknownHashFunction(void)
 	else
 	{
 		puts("#Unknown hash function!");
-		puts("#Use \"ch -f\" to get list of all available hash functions.");
+		puts("#Use \"SHA3SUM -f\" to get list of all available hash functions.");
 	}
 	exit(3);
 }
