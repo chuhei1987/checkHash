@@ -1,13 +1,13 @@
 /*
 * Project: checkHash
-* Version: 1.0
-* Project author: https://github.com/mt1006
+* Version: 1.0.1
+* Project author: https://github.com/chuhei1987/checkHash
 * File: operations.c
 */
 
 #include "checkHash.h"
 
-const int maxHashLen = 1025;
+const int maxHashLen = 2049;
 
 void arrayHash(byte* input, char* output, int64 inputSize, HashFunction hashFunction)
 {
